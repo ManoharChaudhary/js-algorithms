@@ -54,6 +54,14 @@ a1 = [4,2,6,2,1];
 // var b = [ "043" ];
 
 // a < b;	// false
+// for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array.length - 1; j++) {
+//         if(array[j] > array[j + 1]) {
+//             this.swap(array, j, j + 1 );
+//         }
+        
+//     }
+//  }
 
 bubble.sort(a1)
 console.log(a1);

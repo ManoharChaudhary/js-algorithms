@@ -8,7 +8,7 @@ class SelectionSort {
         }
       }
       if (minIndex != i) {
-         this.swap(array, i, minIndex);
+        this.swap(array, i, minIndex);
       }
     }
   }
@@ -19,19 +19,16 @@ class SelectionSort {
 
 selection = new SelectionSort();
 a1 = [4, 2, 6, 2, 1];
-// iterate 
+// iterate
 // 4,2,6,2,1
-     //min 4
+//min 4
 //after first iteration
 // 1,2,6,2,4
 // now input is 2,6,2,4
 // 2,6,2,4
-   // min 3
+// min 3
 // 2,6,4
-  // min 4
-       
-
-
+// min 4
 
 console.log(a1);
 selection.sort(a1);
