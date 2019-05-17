@@ -40,11 +40,12 @@ function isPrimeOrder(order) {
   }
 }
 var orderList = [
-  "ab2 asdlsdfsd",
+  "ab2 asdlsdfsd", 
   "ab2 1233213123",
-  "ab1 asdlsdfsd",
-  "ab1 4342342342"
+  "ab1 asdlsdfsd", 
+  "ab1 4342342342" 
 ];
+
 var noOfOrders = 4;
 //\prioritizedOrders(noOfOrders, orderList);
 // FUNCTION SIGNATURE ENDS

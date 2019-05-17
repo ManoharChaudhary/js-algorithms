@@ -1,21 +1,21 @@
 const comparator = (a, b) => {
-  let secondHalfOfA = a.split(" ")[1];
-  let secondHalfOfB = b.split(" ")[1];
-  if (!Number(secondHalfOfA) && Number(secondHalfOfB)) {
+  let metaDataOfA = a.split(" ")[1];
+  let metaDataOfB = b.split(" ")[1];
+  if (!Number(metaDataOfA) && Number(metaDataOfB)) {
     return -1;
-  } else if (Number(secondHalfOfA) && !Number(secondHalfOfB)) {
+  } else if (Number(metaDataOfA) && !Number(metaDataOfB)) {
     return 1;
-  } else if (!Number(secondHalfOfA) && !Number(secondHalfOfB)) {
-    if (secondHalfOfA < secondHalfOfB) {
+  } else if (!Number(metaDataOfA) && !Number(metaDataOfB)) {
+    if (metaDataOfA < metaDataOfB) {
       return -1;
-    } else if (secondHalfOfA > secondHalfOfB) {
+    } else if (metaDataOfA > metaDataOfB) {
       return 1;
     } else {
-      let firstHalfOfA = a.split(" ")[0];
-      let firstHalfOfB = b.split(" ")[0];
-      if (firstHalfOfA < firstHalfOfB) {
+      let identifierOfA = a.split(" ")[0];
+      let identifierOfB = b.split(" ")[0];
+      if (identifierOfA < identifierOfB) {
         return -1;
-      } else if (firstHalfOfA > firstHalfOfB) {
+      } else if (identifierOfA > identifierOfB) {
         return 1;
       } else {
         return 0;
@@ -31,9 +31,9 @@ function prioritizedOrders(numOrders, orderList) {
   return orderList;
 }
 var orderList = [
+  "ab1 asdlsdfsd",
   "ab2 asdlsdfsd",
   "ab2 1233213123",
-  "ab1 asdlsdfsd",
   "ab1 4342342342"
 ];
 prioritizedOrders(4, ordList);

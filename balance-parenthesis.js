@@ -1,4 +1,5 @@
 function isBalanced(inputString){
+    
     function  isOpenTerm(openTerm) {
         for(let terms of token) {
             if(terms[0] == openTerm) {
