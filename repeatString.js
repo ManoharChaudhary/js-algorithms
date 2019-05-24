@@ -1,55 +1,29 @@
-// Lilah has a string, , of lowercase English letters that she repeated infinitely many times.
+// Given an integer N and a lowercase string. The string is repeated infinitely.
+// The task is to find the No. of occurrences of a given character x in first N letters.
 
-// Given an integer, , find and print the number of letter a's in the first  letters of Lilah's infinite string.
+// Examples:
 
-// For example, if the string  and , the substring we consider is , the first  characters of her infinite string. There are  occurrences of a in the substring.
+// Input : N = 10 str = "abcac"
+// Output : 4
+// Explanation: "abcacabcac" is the substring from the infinitely repeated string.
+//  In first 10 letters 'a' occurs 4  times.
+          
+// Input: N = 10, str = "aba"
+// Output : 7
 function repeatString(s, n) {
-  const orignalLength = s.length;
-  let finalString = '';
-  if (orignalLength < 1) {
-    return 0;
-  } else if (orignalLength > n) {
-    finalString = s.slice(0, n + 1);
-  } else if (orignalLength < n) {
-    let start = 0;
-    while (finalString.length < n) {
-      if (start === orignalLength - 1) {
-        start = 0;
-      }
-      if (s.length * finalString.length < n) {
-        finalString += s;
-      } else {
-        finalString += s[start];
-        start++;
-      }
+  let count = 0;
+  for (let index = 0; index < s.length; index++) {
+    if (s[index] == "a") {
+      count++;
     }
-  } else {
-    finalString = s;
   }
-  return finalString.split("").reduce((a, c) => {
-    if (c === "a") {
-      return a + 1;
-    } else {
-      return a;
+  const repitation = Math.floor(n / s.length);
+  count = count * repitation;
+  for (let index = 0; index < n % s.length; index++) {
+    if (s[index] == "a") {
+      count++;
     }
-  }, 0);
+  }
+  return count;
 }
-console.log(repeatString("sssssassssa", 10));
-
-// Lilah has a string, , of lowercase English letters that she repeated infinitely many times.
-
-// Given an integer, , find and print the number of letter a's in the first  letters of Lilah's infinite string.
-
-// For example, if the string  and , the substring we consider is , the first  characters of her infinite string. There are  occurrences of a in the substring.
-// function repeatString(s, n) {
-//     let count = 0;
-//     for (let index = 0; index < s.length; index++) {
-//       if (s[index] == "a") {
-//         count++;
-//       }
-//     }
-//     return count;
-//   }
-//   console.log(repeatString('ss', 10));
-  
-  
+console.log(repeatString("ss", 10));
