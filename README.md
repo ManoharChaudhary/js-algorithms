@@ -1,3 +1,3 @@
 # js-alogrithms
-This project start with intenntion to learn & pactice Data Structure and Algorithms. 
+This project started with intention to learn & practice Data Structure and Algorithms. 
 Later I had added coding problems and Design patterns. 
