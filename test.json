@@ -1,0 +1,28 @@
+{
+    "Request": {
+        "AccessSubject": {
+            "Attribute": [
+                {
+                    "Value": "Ravi.Singh3@gds.ey.com",
+                    "AttributeId": "urn:oasis:names:tc:xacml:1.0:subject:subject-id"
+               }
+            ]
+        },
+        "Resource": {
+            "Attribute": [
+                {
+                    "Value": "liquor",
+                    "AttributeId": "urn:oasis:names:tc:xacml:1.0:resource:resource-id"
+                }
+            ]
+        },
+        "Action": {
+            "Attribute": [
+                {
+                    "Value": "view",
+                    "AttributeId": "urn:oasis:names:tc:xacml:1.0:action:action-id"
+                }
+            ]
+        }
+    }
+}

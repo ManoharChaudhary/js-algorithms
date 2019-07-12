@@ -1,0 +1,55 @@
+	
+No Offer
+Positive Experience
+Average Interview
+Application
+
+I applied online. The process took 3+ months. I interviewed at Zalando (Berlin (Germany)) in February 2019.
+
+Interview
+
+I applied via stackoverflow on 16th Feb, 2019 and I was ask to perform a codility test. Hiring process and interview process was easy but it was generally long process but overall it was fun having conversation with awesome people, working at awesome place.
+
+Interview Questions
+
+Codility test 
+Input=1234567, 
+output = 123-45-67, 
+input = 123456789, 
+output= 123-456-789, 
+input = 12345678, 
+output 123-456-78  
+Answer Question
+Codility Test: Extracting common elements between two integer arrays in nLogn time  
+Answer Question
+Second Interview with HR
+- HR questions, why you want to join
+- Failures and Success
+- Collaboration
+- Team onding
+- How you want your managers to treat you
+- How would you deal with low performers  
+Answer Question
+Technical Third Interview
+- System Design of Shopping Cart
+- HTTP Error Codes, API EndPoints name with their HTTP type
+- API’s with their relevant HTTP Types with their method body and parameters
+- Architecture Design, Logical Design and Physical Design
+- Guest User vs Registered user
+- Synching User with Remote  
+Answer Question
+Technical Fourth Interview
+- Program that takes String of number and print their respective Name in English Input = 123 Output One-Two-Three
+- Program that takes number and return word Input 5234 output = Five thousand two hundred and thirty four  
+Answer Question
+Technical Fifth Interview
+- General questions related to team management, People management and Task Management
+- RX questions related to combine operators
+- Composition and aggregation
+- Dagger Questions
+- Automated Tested Questions
+- Parcel vs serialization (Sample implementation of Parcel)
+- Code Snippets and find out which one is better. Generally a code that have dependency creation and dependency passing
+- If screen gets rotated what happens then ? How we can retain data? Which methods get invoked?
+- Difference between onStop and onPause
+- LifeCycle of Activity? difference between nonstop and on pause  

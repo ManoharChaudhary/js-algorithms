@@ -27,4 +27,15 @@ function fibonacciRecursive(n, a = 1, b = 1, fibSequence = []) {
     fibSequence.push(c);
     return fibonacciRecursive(n-1, b, c,fibSequence);
 }
+function fib(n) {
+    let [...f] = [0, 1];
+    console.log(f);
+    for (let i = 2; i <= n; i++) {
+      /* Add the previous 2 numbers in the series 
+             and store it */
+      f[i] = f[i - 1] + f[i - 2];
+    }
+
+    return f[n];
+  }
 console.log(fibonacciRecursive(8));
