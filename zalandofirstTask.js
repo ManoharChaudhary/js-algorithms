@@ -1,6 +1,3 @@
-'use strict';
-
-/* global $, jQuery */
 
 "use strict";
 

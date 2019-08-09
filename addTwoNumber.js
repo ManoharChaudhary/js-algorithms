@@ -11,9 +11,9 @@
 var twoSum = (nums, target) => {
   let map = new Map();
   for (let i = 0; i < nums.length; i++) {
-    const compliment = target - nums[i];
-    if (map.has(compliment)) {
-      return [map.get(compliment), i];
+    const complement = target - nums[i];
+    if (map.has(complement)) {
+      return [map.get(complement), i];
     }
     map.set(nums[i], i);
   }

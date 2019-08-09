@@ -1,4 +1,4 @@
-// LinkedList 
+// LinkedList
 
 class Node {
   constructor(data, next = null) {
@@ -7,7 +7,7 @@ class Node {
   }
 }
 
- class LinkedList {
+class LinkedList {
   constructor() {
     this.head = null;
   }
@@ -45,10 +45,12 @@ class Node {
     current.next = current.next.next;
   }
 }
-var list = new LinkedList();
-list.append(10);
-list.append(20);
-list.append(30);
-list.prepend(100);
-//list.remove(10);
-console.log(list);
+module.exports = LinkedList;
+//module.export = { Node, LinkedList };
+// var list = new LinkedList();
+// list.append(10);
+// list.append(20);
+// list.append(30);
+// list.prepend(100);
+// //list.remove(10);
+// console.log(list);

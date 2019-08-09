@@ -53,3 +53,20 @@ Technical Fifth Interview
 - If screen gets rotated what happens then ? How we can retain data? Which methods get invoked?
 - Difference between onStop and onPause
 - LifeCycle of Activity? difference between nonstop and on pause  
+
+Topic to study:
+
+1. critical rendering path
+2. How browser works
+3. Css/js files blocking or non-blocking
+4. RX js
+5.Testing Unit / Integration/EtoE
+6. Functional programing
+7. Docker
+8. Authentication
+9. Static code analysis
+10. GraphQL (good to have)
+11. Server side rendering
+
+
+watch : FinCompare

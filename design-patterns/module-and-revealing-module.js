@@ -1,5 +1,5 @@
 /* #Module Design Pattern
-JavaScript modules are the most prevalently used design patterns
+JavaScript modules are the most frequently used design patterns
 for keeping particular pieces of code independent of other components.
 This provides loose coupling to support well-structured code. */
 
