@@ -22,11 +22,13 @@ const getPrimes = number => {
   return primes;
 };
 function isPrime(num) {
-  if (num > 2 && num % 2 === 0) {
+  if (num === 2) {
+    return true;
+  } else if (num < 2 || num % 2 === 0) {
     return false;
   }
   let flag = 1;
-  for (let i = 2; i < Math.floor(Math.sqrt(num)); i++) {
+  for (let i = 2; i <= Math.floor(Math.sqrt(num)); i++) {
     if (num % i === 0) {
       flag = 0;
       break;
@@ -39,4 +41,4 @@ function isPrime(num) {
   }
 }
 
-console.log(getPrimes(21));
+console.log(getPrimes(2));
