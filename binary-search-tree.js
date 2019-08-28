@@ -102,7 +102,7 @@ class BinarySearchTree {
       if (current.right !== null) {
         Queue.push(current.right);
       }
-    }
+    } 
   }
   // DLR
   preOrderTraversal(current = this.root) {

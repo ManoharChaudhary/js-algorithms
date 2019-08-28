@@ -18,7 +18,7 @@ class Stack {
         let current = this.top;
         newNode.next = current;
         this.top = newNode;
-    }
+     }
     // read top node form stack
     peek() {
        if(this.top != null) {
