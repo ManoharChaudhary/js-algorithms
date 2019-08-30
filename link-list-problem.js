@@ -1,4 +1,4 @@
-const SinglelyLL = require("./singlely-linked-list");
+const SinglelyLL = require("./singly-linked-list");
 // using O(n2)
 var singlyListIntersection = function(SLL1, SLL2) {
   let SLL1Current = SLL1.head;
@@ -46,3 +46,16 @@ var singlyListIntersection1 = function(SLL1, SLL2) {
   }
 };
 console.log(singlyListIntersection1(SLL1, SLL2));
+
+var singlyListIntersection2 = function(SLL1, SLL2) {
+  
+};
+console.log(singlyListIntersection2(SLL1, SLL2));
+//          p1
+// A ={1,3,5,7,9,11} 
+//       p2
+// B = {2,4,9,11}
+// 2
+
+
+
