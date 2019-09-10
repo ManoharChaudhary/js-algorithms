@@ -34,3 +34,9 @@ doSomething()
   .then(function(result) {
     console.log(result); //will return 20
   });
+/* ----------- new Challenge -------------- */
+var promise1 = new Promise((resolve, reject) => {
+  resolve("Hi");
+  resolve("Hello");
+});
+console.log(promise1.then(console.log));
